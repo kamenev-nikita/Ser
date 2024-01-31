@@ -1,0 +1,35 @@
+.about h4 {
+  color: var(--color1);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 16px;
+}
+
+.cardImg {
+  margin: 12px auto 8px auto;
+  width: 25%;
+  height: 25%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.toolLinkCalc {
+  text-decoration: "none";
+  color: var(--color1);
+}

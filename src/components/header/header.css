@@ -1,0 +1,18 @@
+.header {
+  padding: 8px 0px;
+  background: white;
+}
+
+.logo {
+  margin-left: 4vw;
+  width: 64px;
+}
+
+header a {
+  margin-left: calc(var(--stap) * 2);
+}
+
+hr {
+  color: red;
+  height: 2px;
+}

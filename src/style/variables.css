@@ -1,2 +1,4 @@
-::root {
+:root {
+  --stap: 4px;
+  --color1: #ffc107;
 }

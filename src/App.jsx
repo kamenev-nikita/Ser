@@ -1,10 +1,16 @@
-function App() {
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import AppRouter from "./components/AppRouter/AppRouter";
 
+function App() {
   return (
-    <>
-      1
-    </>
-  )
+    <BrowserRouter>
+      <Header />
+      <AppRouter />
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
